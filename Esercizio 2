@@ -1,0 +1,19 @@
+#Esercizio 2
+
+n = 1
+x = 1.1
+z = 1+1j
+t = True
+s = "hi"
+print(type(n))
+print(type(x))
+print(type(z))
+print(type(t))
+print(type(s))
+
+print(repr(x),"/",repr(n+x),":", x/(n+x))
+print("modulo di", z, "handmade:", ((z.real)**(2)+(z.imag)**(2))**(0.5))
+print("vero o vero:", t or t)
+print("implicit type casting:",x/n)
+print("explicit type casting:", repr(x)+repr(x))
+
