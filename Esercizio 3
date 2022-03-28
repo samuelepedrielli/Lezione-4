@@ -1,0 +1,11 @@
+#Esercizio 3
+
+s0 = input("Enter the starting point: ")
+v0 = input("Enter the starting velocity: ")
+t = input("Enter the time interval: ")
+v = input("Enter the velocity: ")
+a = input("Enter the acceleration: ")
+s = float(t)*float(v)+float(s0)
+x = float(s0) + float(t)*float(v0) + 0.5*float(a)*float(t)**2
+print("Uniform motion: the final point is: ",s)
+print("Accelerated motion: the final point is: ",x)
