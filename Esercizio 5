@@ -1,0 +1,10 @@
+#Esercizio 5
+
+import areas
+import importlib
+importlib.reload(areas)
+
+print(areas.square(input("Enter the side of the square: ")))     
+print(areas.rectangle(input("Enter the base of the rectangle: "),input("Enter the height of the rectangle: ")))
+print(areas.triangle(input("Enter the base of the triangle: "),input("Enter the height of the triangle: ")))
+print(areas.circle(input("Enter the radius of the circle: ")))
