@@ -1,0 +1,56 @@
+#Esdercizio 6
+import areas
+#dir(): finds out names defined inside a module
+#EXAMPLE:
+print(dir(areas)) 
+#['__builtins__',
+#'__cached__',
+#'__doc__',
+#'__file__',
+#'__loader__',
+#'__name__',
+#'__package__',
+#'__spec__',
+#'circle',
+#'math',
+#'rectangle',
+#'square',
+#'triangle']
+
+#type() returns the type of the object passed as argument
+#EXAMPLES:
+print(type(areas))
+#<class 'module'>
+t=False
+print(type(t))
+#<class 'bool'>
+
+#help() acts on a module or object returns the documentation for each function
+
+#EXAMPLE:
+print(help(areas))
+#NAME
+    #areas
+
+#FUNCTIONS
+    #circle(r)
+        ##circle
+    
+    #rectangle(b, h)
+        ##rectangle
+    
+    #square(l)
+        ##square
+    
+    #triangle(b, h)
+        ##triangle
+
+#FILE
+    #/Users/samuelepedrielli/Desktop/AIT/Recupero python/4/areas.py
+
+
+
+
+
+
+
