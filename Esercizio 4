@@ -1,0 +1,20 @@
+#Esercizio 4
+
+def f_sum(a, b): 
+    sum = a + b
+    return sum
+a =1 
+b =2 
+sum = 3
+f_sum(100, 100)
+print(sum) #printa la variabile sum che è 3
+
+def f_sum(a, b):
+    sum = a + b
+    return sum
+a= 1
+b= 2
+sum = 3
+print(f_sum(100, 100)) #printa il risultato dell'operazione, che è 200
+
+
