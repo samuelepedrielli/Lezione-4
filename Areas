@@ -1,0 +1,22 @@
+import math
+#square
+def square(l):
+    _a = float(l)**2
+    print("The area of the square is")
+    return _a
+#rectangle 
+def rectangle(b,h):
+    _a=float(b)*float(h)
+    print("The area of the rectangle is")
+    return _a
+#triangle
+def triangle(b,h):
+    _a = float(b)*float(h)*0.5
+    print("The area of the triangle is")
+    return _a
+#circle
+def circle(r):
+    _a = float(math.pi)*float(r)**2
+    print("The area of the circle is")
+    return _a
+
